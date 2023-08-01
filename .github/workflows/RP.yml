@@ -1,15 +1,20 @@
-name: API Tests Schedule
+name: CD Prod All
 
 on:
-  # run tests at 7:20, 12:20, 20:20 each day from Monday to Friday, cron job is in UTC Time.
+  workflow_dispatch:
+    inputs:
+      targetenv:
+        description: 'Select Target Environment'     
+        required: true
+        default: 'test'
   schedule:
-    - cron: "20 5,10,18 * * 1-5"
-
+    - cron: '15 12 * * 1-5'
+  
 jobs:
-  api-testing:
-    timeout-minutes: 30
-    runs-on: [self-hosted, linux]
+  build:
+    name: Run RP TEST 
 
+    runs-on: [self-hosted, linux ]
     steps:
       - name: Checkout Current Repo
         uses: actions/checkout@v3
@@ -35,7 +40,10 @@ jobs:
           name: reportApi.xml
           path: reports/reportApi.xml
           retention-days: 5
-
-      - name: Send message to teasms
-        if: failure()
-        run: env runId=${{ github.run_id}} ownerRepo=${{ github.repository}} accessToken=${{ secrets.WORKFLOW_TOKEN }} node test-api/helpers/sendTeamsMessage
+          
+      - name: Post to Teams
+        if: always()
+        uses: ./.github-actions/notification
+        with:
+            teamsWebhookUrl: qaNotificationsWebhook
+            message: ${{ github.workflow }} completed with Status - ${{ job.status }}  
