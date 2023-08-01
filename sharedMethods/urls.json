@@ -1,0 +1,8 @@
+{
+  "testRCAUrl": "https://test.rcanalytics.com",
+  "devRCAUrl": "https://dev.rcanalytics.com",
+  "localhost": "http://localhost:5173",
+  "apiTestUrl": "https://backend-uk-test.eks.nonprod.rcanalytics.io/v1",
+  "apilogin": "https://test.rcanalytics.com/api/v2/authentication/login",
+  "oauthUrl": "https://accounts-qa1.msci.com/oauth/token"
+}

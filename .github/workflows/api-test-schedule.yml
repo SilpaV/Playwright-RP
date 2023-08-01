@@ -1,0 +1,41 @@
+name: API Tests Schedule
+
+on:
+  # run tests at 7:20, 12:20, 20:20 each day from Monday to Friday, cron job is in UTC Time.
+  schedule:
+    - cron: "20 5,10,18 * * 1-5"
+
+jobs:
+  api-testing:
+    timeout-minutes: 30
+    runs-on: [self-hosted, linux]
+
+    steps:
+      - name: Checkout Current Repo
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Build Tools
+        run: |
+          npm install -g yarn
+
+      - name: Install dependecies
+        run: yarn install
+
+      - name: Run api tests
+        run: yarn test
+
+      - name: Publish Test Artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: reportApi.xml
+          path: reports/reportApi.xml
+          retention-days: 5
+
+      - name: Send message to teasms
+        if: failure()
+        run: env runId=${{ github.run_id}} ownerRepo=${{ github.repository}} accessToken=${{ secrets.WORKFLOW_TOKEN }} node test-api/helpers/sendTeamsMessage

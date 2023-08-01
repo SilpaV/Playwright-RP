@@ -1,0 +1,315 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1826684774.1683725949",
+      "domain": ".rcanalytics.com",
+      "path": "/",
+      "expires": 1718285954.445277,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1807197675.1683725949",
+      "domain": ".rcanalytics.com",
+      "path": "/",
+      "expires": 1683812354,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".rcanalytics.com",
+      "path": "/",
+      "expires": 1683726009,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ouid",
+      "value": "645b9e7e00017491bab0193b9d37e43f681934925b41b585fc01",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1717421955.907812,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "645b9e7e33071eb6",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1717421955.907827,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "na_id",
+      "value": "2023051013391094400214422104",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1717421950.951686,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "loc",
+      "value": "MTE3MDZOQVVTTlkyMjA2MTA2ODUwMTAwMDBDSA==",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1718026755,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A0c53a9d0-ef38-11ed-8260-9bf3096f53b6%3A569cbeaa3778d9c34d023267969ead4c5982b1f1ba1b5c90a4f79666ea1ecbb7.izTZGrrkJ0PRBC0plmZrV62G8mdfsT3tTDBoSWgVixE",
+      "domain": "accounts-qa1.msci.com",
+      "path": "/",
+      "expires": 1715283553.869608,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A0c53a9d0-ef38-11ed-8260-9bf3096f53b6%3A569cbeaa3778d9c34d023267969ead4c5982b1f1ba1b5c90a4f79666ea1ecbb7.izTZGrrkJ0PRBC0plmZrV62G8mdfsT3tTDBoSWgVixE",
+      "domain": "accounts-qa1.msci.com",
+      "path": "/",
+      "expires": 1715283553.869686,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AJ1SyHlf8aWOp7MK-_ToPo5FYAPkToIxB.%2B%2BswOnfSGwbP0BQejbWfTGo5SStATw%2BWzyNaKqESTXA",
+      "domain": "accounts-qa1.msci.com",
+      "path": "/",
+      "expires": 1683769154.189611,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AJ1SyHlf8aWOp7MK-_ToPo5FYAPkToIxB.%2B%2BswOnfSGwbP0BQejbWfTGo5SStATw%2BWzyNaKqESTXA",
+      "domain": "accounts-qa1.msci.com",
+      "path": "/",
+      "expires": 1683769154.18967,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__atuvc",
+      "value": "2%7C19",
+      "domain": "test.rcanalytics.com",
+      "path": "/",
+      "expires": 1718026755,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__atuvs",
+      "value": "645b9e7dbd7e497a001",
+      "domain": "test.rcanalytics.com",
+      "path": "/",
+      "expires": 1683727755,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mus",
+      "value": "0",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1717421955.907764,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uvc",
+      "value": "2%7C19",
+      "domain": ".addthis.com",
+      "path": "/",
+      "expires": 1718026755,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDID",
+      "value": "c5672fe1-9eba-4c6a-879c-0fc591366ac5",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1715348355.568672,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TDCPM",
+      "value": "CAESFgoHYWRkdGhpcxILCPrGjK6_2eg7EAUYBSABKAIyCwioqvba1dnoOxAFOAE.",
+      "domain": ".adsrvr.org",
+      "path": "/",
+      "expires": 1715348355.568735,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "demdex",
+      "value": "64083112135876479023920480728797632805",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1699277955.615449,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUky4Gkqmaz42e6k2WRsV9J4jfcNLbVH-8lp5WjRvO5DfFImax4ho9gj8nN2rDM",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1718285955.610087,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dpm",
+      "value": "64083112135876479023920480728797632805",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1699277955.615397,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wfivefivec",
+      "value": "c6dhZ53O1PWK2f5",
+      "domain": ".w55c.net",
+      "path": "/",
+      "expires": 1718026755.632701,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bku",
+      "value": "ra/99/mKVtEEPYDP",
+      "domain": ".bluekai.com",
+      "path": "/",
+      "expires": 1699623555.630674,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bkpa",
+      "value": "KJy919ewd02pSUHknp/h1EztwlJk5eNG5sNLJZhoqVk6wE1ZSVx2BMxNRMkkBtDp1p9l1VPiBQ195JWmg9==",
+      "domain": ".bluekai.com",
+      "path": "/",
+      "expires": 1699623555.630732,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "matchaddthis",
+      "value": "5",
+      "domain": ".w55c.net",
+      "path": "/",
+      "expires": 1686317955.632747,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uuid",
+      "value": "542d645b-9e83-4b00-bb77-d66e001b1aec",
+      "domain": ".mathtag.com",
+      "path": "/",
+      "expires": 1717681155.684256,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_legacy_auth0.is.authenticated",
+      "value": "true",
+      "domain": "test.rcanalytics.com",
+      "path": "/",
+      "expires": 1683812355,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.is.authenticated",
+      "value": "true",
+      "domain": "test.rcanalytics.com",
+      "path": "/",
+      "expires": 1683812355,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rcajwttest",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50VXNlcl9pZCI6MTMzMzM5LCJhY2NvdW50X2lkIjoyMzQsImZpcnN0TmFtZV90eCI6Ik1TQ0kgUUEiLCJsYXN0TmFtZV90eCI6Ik1TQ0kgUUEiLCJhY2NvdW50QWRtaW5fZmciOjAsInN5c3RlbUFkbWluX2ZnIjowLCJsZWdhY3lQYXNzS2V5IjoiWDhseStiaHJPem8kIiwicnVsZXMiOlsxLDNdLCJzY29wZSI6WyJQVFMiLCJMb2FuIiwiTG9hbkZlYXR1cmUiLCJJVSIsIlRUIiwiRUNUIiwiR0NUIiwiVVNDVCIsIlNETCIsIlRyYWNrZXIiLCJDUFBJIiwiVXNlclBhc3N3b3JkQ29udHJvbCIsIlRUX3NhbGVzIiwiVFRfY29uc3RydWN0aW9uIiwiVFRfbG9hbnMiLCJMaXF1aWRpdHlTY29yZSIsIlByb3BlcnR5U3VydmVpbGxhbmNlIiwiQ2xpbWF0ZVZhUiJdLCJ6aXBDb25maXJtZWRfZmciOnRydWUsImRldmljZUF1dGhDb25maXJtZWRfZmciOmZhbHNlLCJleGNlbEV4cG9ydFJvd3MiOm51bGwsIm5ld1VzZXJfZmciOmZhbHNlLCJsb2dpbkFsbG93ZWRfZmciOjEsIm1vYmlsZUxvZ2luT25seV9mZyI6MCwiZW1haWwiOiJNU0NJUUFAcmNhbmFseXRpY3MuY29tIiwic2Vzc2lvbklkIjoiNzg1YzI2MTAtNzcwOC00ZWZmLWExZDgtOTNmMzI5M2ZkMWI5IiwibGRIYXNoIjoiNzIxZTNkNDJkZTkzNGFmZWIzNmY5NmE0MTVlNGNmY2NiNzZkNzU5YjMzMzhmZWNiYjEzYTIzYjNmMDFmN2U0NiIsImlhdCI6MTY4MzcyNTk1NiwiZXhwIjoxNjgzODEyMzU2fQ.gsQdnVsPK9enOBvAVY2CWk4DmVbRo94ShIkEVkE4-1E",
+      "domain": ".rcanalytics.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://test.rcanalytics.com",
+      "localStorage": [
+        {
+          "name": "_at.cww",
+          "value": "{\"value\":true,\"expires\":1683727755462}"
+        },
+        {
+          "name": "at-rand",
+          "value": "0.4080539215072314"
+        },
+        {
+          "name": "ld:5e6a3be11479570a9f5739c6:$diagnostics",
+          "value": "{\"dataSinceDate\":1683725951506,\"droppedEvents\":0,\"eventsInLastBatch\":0,\"streamInits\":[]}"
+        },
+        {
+          "name": "userlane-assistant-context-null",
+          "value": "{\"entityId\":null,\"entityData\":null,\"entityType\":null}"
+        },
+        {
+          "name": "newPtsfrontend",
+          "value": "[object Object]"
+        },
+        {
+          "name": "at-lojson-cache-ra-5751da923c87b152",
+          "value": "{\"pc\":\"shin\",\"subscription\":{\"active\":true,\"edition\":\"BASIC\",\"tier\":\"basic\",\"reducedBranding\":false,\"insightsEnabled\":false},\"customMessageTemplates\":[],\"config\":{\"_default\":{\"widgets\":{\"shin\":{\"hideEmailSharingConfirmation\":false,\"counts\":\"none\",\"shareCountThreshold\":10,\"originalServices\":\"facebook_like,tweet,pinterest_pinit,counter\",\"titleFontSize\":\"18px\",\"thirdPartyButtons\":false,\"creationTimestamp\":1464982582344,\"counterColor\":\"#666666\",\"id\":\"shin\",\"hideLabel\":true,\"toolName\":\"Inline\",\"countsFontSize\":\"60px\",\"widgetId\":\"pwfi\",\"services\":\"twitter,facebook,linkedin,email\",\"label\":\"SHARES\",\"__hideOnHomepage\":false,\"numPreferredServices\":5,\"borderRadius\":\"0%\",\"size\":\"32px\",\"elements\":\".addthis_sharing_toolbox\",\"responsive\":\"0px\",\"iconColor\":\"#FFFFFF\",\"hideDevice\":\"none\",\"style\":\"fixed\"}}}},\"perConfig\":{}}"
+        }
+      ]
+    }
+  ]
+}

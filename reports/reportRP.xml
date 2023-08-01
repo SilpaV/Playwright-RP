@@ -1,0 +1,209 @@
+<testsuites id="" name="" tests="10" failures="3" skipped="5" errors="0" time="49.88598299999535">
+<testsuite name="example.spec.js" timestamp="2023-05-10T13:39:19.329Z" hostname="1.test" tests="2" failures="0" skipped="0" time="12.394" errors="0">
+<testcase name="has title" classname="example.spec.js" time="6.183">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="6.211">
+</testcase>
+</testsuite>
+<testsuite name="filter-shelf/geography-search.spec.js" timestamp="2023-05-10T13:39:19.329Z" hostname="1.test" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Geography filter shelf › Shopping cart should be empty if no selection is made" classname="filter-shelf/geography-search.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Geography filter shelf › The metro/market list should be visible by default in the picklist" classname="filter-shelf/geography-search.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Geography filter shelf › Should be possible to add geography items to the shopping cart via picklist" classname="filter-shelf/geography-search.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Geography filter shelf › Should be possible to remove geography from the shopping cart" classname="filter-shelf/geography-search.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Geography filter shelf › Should be possible to exclude geography from the shopping cart" classname="filter-shelf/geography-search.spec.js" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="landing.spec.js" timestamp="2023-05-10T13:39:19.329Z" hostname="1.test" tests="3" failures="3" skipped="0" time="89.999" errors="0">
+<testcase name="Login and navigate to UK module › Should be possible to login to fourth module landing page" classname="landing.spec.js" time="29.998">
+<failure message="landing.spec.js:11:3 Should be possible to login to fourth module landing page" type="FAILURE">
+<![CDATA[  [1.test] › landing.spec.js:11:3 › Login and navigate to UK module › Should be possible to login to fourth module landing page 
+
+    Test timeout of 30000ms exceeded while running "beforeEach" hook.
+
+      4 |
+      5 | test.describe("Login and navigate to UK module", () => {
+    > 6 |   test.beforeEach(async ({ page }, testInfo) => {
+        |        ^
+      7 |     const landingPange = new LandingPage(page);
+      8 |     await landingPange.goto();
+      9 |   });
+
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:6:8
+
+    Error: page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://test.rcanalytics.com/fourth-module", waiting until "load"
+    ============================================================
+
+       at ../pages/landing.page.js:44
+
+      42 |     await this.page.goto("/");
+      43 |     if (this.page.url().includes("rcanalytics")) {
+    > 44 |       await this.page.goto("/fourth-module");
+         |                       ^
+      45 |     }
+      46 |   }
+      47 |
+
+        at LandingPage.goto (/Users/svonteru/Documents/GitHub/uk/test-e2e/pages/landing.page.js:44:23)
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:8:5
+
+    Pending operations:
+      - page.goto at test-e2e/pages/landing.page.js:42:21
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/trace.zip]]
+
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login and navigate to UK module › Should be possible to navigate to property page" classname="landing.spec.js" time="30.001">
+<failure message="landing.spec.js:17:3 Should be possible to navigate to property page" type="FAILURE">
+<![CDATA[  [1.test] › landing.spec.js:17:3 › Login and navigate to UK module › Should be possible to navigate to property page 
+
+    Test timeout of 30000ms exceeded while running "beforeEach" hook.
+
+      4 |
+      5 | test.describe("Login and navigate to UK module", () => {
+    > 6 |   test.beforeEach(async ({ page }, testInfo) => {
+        |        ^
+      7 |     const landingPange = new LandingPage(page);
+      8 |     await landingPange.goto();
+      9 |   });
+
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:6:8
+
+    Error: page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://test.rcanalytics.com/fourth-module", waiting until "load"
+    ============================================================
+
+       at ../pages/landing.page.js:44
+
+      42 |     await this.page.goto("/");
+      43 |     if (this.page.url().includes("rcanalytics")) {
+    > 44 |       await this.page.goto("/fourth-module");
+         |                       ^
+      45 |     }
+      46 |   }
+      47 |
+
+        at LandingPage.goto (/Users/svonteru/Documents/GitHub/uk/test-e2e/pages/landing.page.js:44:23)
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:8:5
+
+    Pending operations:
+      - page.goto at test-e2e/pages/landing.page.js:42:21
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-navigate-to-property-page-1-test/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-navigate-to-property-page-1-test/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-navigate-to-property-page-1-test/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-navigate-to-property-page-1-test/trace.zip]]
+
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-possible-to-navigate-to-property-page-1-test/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login and navigate to UK module › Should be able to see all table headers" classname="landing.spec.js" time="30">
+<failure message="landing.spec.js:28:3 Should be able to see all table headers" type="FAILURE">
+<![CDATA[  [1.test] › landing.spec.js:28:3 › Login and navigate to UK module › Should be able to see all table headers 
+
+    Test timeout of 30000ms exceeded while running "beforeEach" hook.
+
+      4 |
+      5 | test.describe("Login and navigate to UK module", () => {
+    > 6 |   test.beforeEach(async ({ page }, testInfo) => {
+        |        ^
+      7 |     const landingPange = new LandingPage(page);
+      8 |     await landingPange.goto();
+      9 |   });
+
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:6:8
+
+    Error: page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://test.rcanalytics.com/fourth-module", waiting until "load"
+    ============================================================
+
+       at ../pages/landing.page.js:44
+
+      42 |     await this.page.goto("/");
+      43 |     if (this.page.url().includes("rcanalytics")) {
+    > 44 |       await this.page.goto("/fourth-module");
+         |                       ^
+      45 |     }
+      46 |   }
+      47 |
+
+        at LandingPage.goto (/Users/svonteru/Documents/GitHub/uk/test-e2e/pages/landing.page.js:44:23)
+        at /Users/svonteru/Documents/GitHub/uk/test-e2e/tests/landing.spec.js:8:5
+
+    Pending operations:
+      - page.goto at test-e2e/pages/landing.page.js:42:21
+
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-able-to-see-all-table-headers-1-test/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/landing-Login-and-navigate-to-UK-module-Should-be-able-to-see-all-table-headers-1-test/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/landing-Login-and-navigate-to-UK-module-Should-be-able-to-see-all-table-headers-1-test/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-able-to-see-all-table-headers-1-test/trace.zip]]
+
+[[ATTACHMENT|../../test-results/landing-Login-and-navigate-to-UK-module-Should-be-able-to-see-all-table-headers-1-test/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+{
+  "name": "test-uk",
+  "version": "1.0.0",
+  "description": "test-uk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --json --outputFile=reports/reportJsonApi.json --detectOpenHandles",
+    "sendMessage": "node ./sendTeamsMessage.js",
+    "pwd-test": "npx playwright test --headed --debug --project=1.test",
+    "pwd-dev": "npx playwright test --headed --debug --project=3.dev",
+    "pw-test": "cross-env RUN_ENV=test npx playwright test --grep-invert 'devEnv' --headed --project=1.test",
+    "pw-dev": "cross-env RUN_ENV=dev playwright test --headed --project=3.dev",
+    "pw-local": "cross-env RUN_ENV=dev playwright test --headed --project=2.local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcanalytics/test-uk.git"
+  },
+  "author": "Maria Vitiuk",
+  "license": "ISC",
+  "homepage": "https://github.com/rcanalytics/test-uk#readme",
+  "dependencies": {
+    "@playwright/test": "^1.36.2",
+    "chai": "^4.3.7",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "jest": "^29.5.0",
+    "jest-geojson": "1.6.0",
+    "jest-json-schema": "^6.1.0",
+    "jest-junit": "^15.0.0",
+    "octokit": "^2.0.14",
+    "prettier": "^2.8.4",
+    "supertest": "^6.3.3",
+    "xml2json": "^0.12.0"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "contentUrl": null,
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+          {
+            "type": "ColumnSet",
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Commit message:",
+                    "horizontalAlignment": "Left",
+                    "isSubtle": true,
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${env}",
+                    "horizontalAlignment": "Left",
+                    "spacing": "None",
+                    "color": "Attention",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Triggered by",
+                    "horizontalAlignment": "Center",
+
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "spacing": "None",
+                    "horizontalAlignment": "Center",
+                    "text": "Azure pipelines",
+
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "type": "ColumnSet",
+            "spacing": "Medium",
+            "separator": true,
+            "columns": [
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Total",
+                    "isSubtle": true,
+                    "horizontalAlignment": "Left",
+                    "weight": "Bolder",
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${total}",
+                    "horizontalAlignment": "Left",
+                    "weight": "Bolder",
+                    "spacing": "Small",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Passed",
+                    "horizontalAlignment": "Center",
+                    "isSubtle": true,
+                    "weight": "Bolder",
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${passed}",
+                    "horizontalAlignment": "Center",
+                    "spacing": "Small",
+                    "color": "good",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Skipped",
+                    "isSubtle": true,
+                    "horizontalAlignment": "Center",
+                    "weight": "Bolder",
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${skipped}",
+                    "color": "accent",
+                    "weight": "Bolder",
+                    "horizontalAlignment": "Center",
+                    "spacing": "Small",
+                    "wrap": true
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "stretch",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Failed",
+                    "isSubtle": true,
+                    "horizontalAlignment": "Right",
+                    "weight": "Bolder",
+                    "wrap": true
+                  },
+                  {
+                    "type": "TextBlock",
+                    "text": "${failed}",
+                    "color": "Attention",
+                    "weight": "Bolder",
+                    "horizontalAlignment": "Right",
+                    "spacing": "Small",
+                    "wrap": true
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "type": "ActionSet",
+            "actions": []
+          }
+        ]
+      }
+    }
+  ]
+}

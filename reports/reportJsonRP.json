@@ -1,0 +1,597 @@
+{
+  "config": {
+    "configFile": "/Users/svonteru/Documents/GitHub/Playwright-RP/playwright.config.js",
+    "rootDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/global-setup.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "github",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/reportJsonE2E.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/reportE2E.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "1.test",
+        "name": "1.test",
+        "testDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "2.local",
+        "name": "2.local",
+        "testDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "3.dev",
+        "name": "3.dev",
+        "testDir": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.33.0",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "example.spec.js",
+      "file": "example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "1.test",
+              "projectName": "1.test",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6183,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-05-10T13:39:21.425Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-3b6f8ea433b9c8ccdd24",
+          "file": "example.spec.js",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "1.test",
+              "projectName": "1.test",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 6211,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-05-10T13:39:22.322Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd9b2edffe9b7501040c-85a84b2fac497e1f6a0b",
+          "file": "example.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "filter-shelf/geography-search.spec.js",
+      "file": "filter-shelf/geography-search.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Geography filter shelf",
+          "file": "filter-shelf/geography-search.spec.js",
+          "line": 5,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Shopping cart should be empty if no selection is made",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:19.339Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b473883aece0c860280c-fa887f6efd4e474e8dff",
+              "file": "filter-shelf/geography-search.spec.js",
+              "line": 13,
+              "column": 3
+            },
+            {
+              "title": "The metro/market list should be visible by default in the picklist",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:19.341Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b473883aece0c860280c-d7bc0e6273529b6277ea",
+              "file": "filter-shelf/geography-search.spec.js",
+              "line": 21,
+              "column": 3
+            },
+            {
+              "title": "Should be possible to add geography items to the shopping cart via picklist",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:19.342Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b473883aece0c860280c-68e8d373fa49f2a24f00",
+              "file": "filter-shelf/geography-search.spec.js",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "Should be possible to remove geography from the shopping cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:19.343Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b473883aece0c860280c-622778c2b84e06f8e2cd",
+              "file": "filter-shelf/geography-search.spec.js",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "Should be possible to exclude geography from the shopping cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:19.343Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "b473883aece0c860280c-ecfcf87d4ec5f255951f",
+              "file": "filter-shelf/geography-search.spec.js",
+              "line": 58,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "landing.spec.js",
+      "file": "landing.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login and navigate to RP module",
+          "file": "landing.spec.js",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Should be possible to login to fourth module landing page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "timedOut",
+                      "duration": 29998,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8",
+                        "snippet": "\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                            "column": 8,
+                            "line": 6
+                          },
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/pages/landing.page.js",
+                            "column": 23,
+                            "line": 44
+                          },
+                          "message": "Error: page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://test.rcanalytics.com/fourth-module\", waiting until \"load\"\n============================================================\n\n\u001b[90m   at \u001b[39m../pages/landing.page.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"rcanalytics\"\u001b[39m)) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/fourth-module\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   }\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m\u001b[0m\n\n\u001b[2m    at LandingPage.goto (/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/pages/landing.page.js:44:23)\u001b[22m\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:8:5\u001b[22m"
+                        },
+                        {
+                          "message": "Pending operations:\n  - page.goto at RegPropsTests/pages/landing.page.js:42:21\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:24.330Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-possible-to-login-to-fourth-module-landing-page-1-test/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                        "column": 8,
+                        "line": 6
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3370f39aa0d6cc6ba3dc-4423629a2a7b7580f221",
+              "file": "landing.spec.js",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "Should be possible to navigate to property page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30001,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8",
+                        "snippet": "\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                            "column": 8,
+                            "line": 6
+                          },
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/RP/RegPropsTests/pages/landing.page.js",
+                            "column": 23,
+                            "line": 44
+                          },
+                          "message": "Error: page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://test.rcanalytics.com/fourth-module\", waiting until \"load\"\n============================================================\n\n\u001b[90m   at \u001b[39m../pages/landing.page.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"rcanalytics\"\u001b[39m)) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/fourth-module\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   }\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m\u001b[0m\n\n\u001b[2m    at LandingPage.goto (/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/pages/landing.page.js:44:23)\u001b[22m\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:8:5\u001b[22m"
+                        },
+                        {
+                          "message": "Pending operations:\n  - page.goto at RegPropsTests/pages/landing.page.js:42:21\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:29.752Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-possible-to-navigate-to-property-page-1-test/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-possible-to-navigate-to-property-page-1-test/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                        "column": 8,
+                        "line": 6
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3370f39aa0d6cc6ba3dc-f6058077e9afe1c4a916",
+              "file": "landing.spec.js",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "Should be able to see all table headers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "1.test",
+                  "projectName": "1.test",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "timedOut",
+                      "duration": 30000,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8",
+                        "snippet": "\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                            "column": 8,
+                            "line": 6
+                          },
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded while running \"beforeEach\" hook.\u001b[39m\n\n\u001b[0m \u001b[90m 4 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m\"Login and navigate to RP module\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mconst\u001b[39m landingPange \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mLandingPage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m     \u001b[36mawait\u001b[39m landingPange\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 9 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:6:8\u001b[22m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/pages/landing.page.js",
+                            "column": 23,
+                            "line": 44
+                          },
+                          "message": "Error: page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://test.rcanalytics.com/fourth-module\", waiting until \"load\"\n============================================================\n\n\u001b[90m   at \u001b[39m../pages/landing.page.js:44\n\n\u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mif\u001b[39m (\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39murl()\u001b[33m.\u001b[39mincludes(\u001b[32m\"rcanalytics\"\u001b[39m)) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m       \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m\"/fourth-module\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m   }\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m\u001b[0m\n\n\u001b[2m    at LandingPage.goto (/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/pages/landing.page.js:44:23)\u001b[22m\n\u001b[2m    at /Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js:8:5\u001b[22m"
+                        },
+                        {
+                          "message": "Pending operations:\n  - page.goto at RegPropsTests/pages/landing.page.js:42:21\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-10T13:39:30.138Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-able-to-see-all-table-headers-1-test/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/svonteru/Documents/GitHub/Playwright-RP/test-results/landing-Login-and-navigate-to-RP-module-Should-be-able-to-see-all-table-headers-1-test/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/svonteru/Documents/GitHub/Playwright-RP/RegPropsTests/tests/landing.spec.js",
+                        "column": 8,
+                        "line": 6
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "3370f39aa0d6cc6ba3dc-1c6461bac272ed7ed480",
+              "file": "landing.spec.js",
+              "line": 28,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
